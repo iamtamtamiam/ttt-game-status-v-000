@@ -39,7 +39,7 @@ end
 
 def full?(board)
   board.none? do |character|
-    character !== " "
+    character != " "
   end
 end
     
