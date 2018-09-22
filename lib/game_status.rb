@@ -37,8 +37,7 @@ else
   false
 end
 
-def full?.all?(board) do |element|
-  element !==" "
-
-end
+def full?(board)
+  board.any? do |character|
+    
 
