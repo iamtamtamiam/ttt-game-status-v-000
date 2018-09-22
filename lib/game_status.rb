@@ -52,8 +52,8 @@ def over?(board)
 end
 
 def winner(board)
-  if win?(board)
-    position_1 = "X"
-    
+  if win?(board) && position_1 = "X"
+    puts "X"
+  end
 end
 
