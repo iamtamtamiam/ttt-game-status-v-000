@@ -37,8 +37,8 @@ else
   false
 end
 
-def full?.all(board) do |full|
-  
+def full?.all(board) do |element|
+  element !==" "
 
 end
 
