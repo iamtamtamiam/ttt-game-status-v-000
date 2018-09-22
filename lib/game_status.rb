@@ -38,7 +38,7 @@ else
 end
 
 def full?(board)
-  board.any? do |character|
+  board.all? do |character|
     character != " "
   end
 end
