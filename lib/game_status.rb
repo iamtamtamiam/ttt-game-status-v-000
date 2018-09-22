@@ -52,7 +52,7 @@ def over?(board)
 end
 
 def winner(board)
-  if won?(board) && position_1 = "X"
+  if won?(board) && board[win_combo[0]] = "X"
     puts "X"
   end
 end
