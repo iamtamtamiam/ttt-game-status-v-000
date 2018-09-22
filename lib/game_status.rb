@@ -53,5 +53,6 @@ end
 
 def winner(board)
   if win?(board)
+    position
 end
 
