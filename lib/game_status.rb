@@ -38,8 +38,8 @@ else
 end
 
 def full?(board)
-  board.none? do |character|
-    character = " "
+  board.any? do |character|
+    character != " "
   end
 end
     
