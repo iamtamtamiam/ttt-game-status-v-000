@@ -52,8 +52,6 @@ def over?(board)
 end
 
 def winner(board)
-  if won?(board) && board[0]= "X"
-    puts "X"
-  end
+  win_combo = won?(board)
 end
 
