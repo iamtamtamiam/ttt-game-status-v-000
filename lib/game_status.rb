@@ -41,6 +41,8 @@ def full?(board)
   board.any? do |character|
     character != " "
   end
+else
+  false
 end
     
     
